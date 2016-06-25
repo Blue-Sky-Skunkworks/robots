@@ -1,0 +1,265 @@
+#+TITLE: Robotics
+#+FILETAGS: robotics
+
+* Carnival
+** Roulette
+http://www.instructables.com/id/Techno-geek-Roulette-or-Who-Makes-the-Coffee/
+* BEAM
+https://en.wikipedia.org/wiki/BEAM_robotics
+** Motor Driver
+http://library.solarbotics.net/circuits/driver_tilden.html
+** Solar engine
+http://library.solarbotics.net/circuits/se.html
+http://library.solarbotics.net/circuits/se_t1_zener.html
+** http://www.beam-online.com/
+* Mark Tilden
+https://www.youtube.com/watch?v=wg-ZM9bVusQ
+https://www.youtube.com/watch?v=NZwbb9a_XAQ
+** Tilden's Three Laws
+A robot must protect its existence at all costs.
+A robot must obtain and maintain access to its own power source.
+A robot must continually search for better power sources.
+* Robosapien
+* Testing Equipment
+** TODO oscilloscope
+*** TODO sound card buffer circuit
+    http://xoscope.cvs.sourceforge.net/viewvc/xoscope/xoscope/hardware/HARDWARE?revision=HEAD
+**** parts list
+    1 IC1 TL082 Dual JFET input operational amplifier
+
+    2 R1 1M,1/4 Watt, 5% resistor
+    2 R2 47k,1/2 Watt, 5% resistor
+    2 R3 4.7k,1/4 Watt, 5% resistor
+    2 R4 3k1/4 Watt, 5% resistor
+    2 R5 27k,1/4 Watt, 5% resistor
+    2 R6 100k,linear potentiometer
+
+    2 C1 .01uF, 1kVceramic disc capacitor
+    2 C2 20pFceramic disc capacitor
+    2 C3 100pFceramic disc capacitor
+
+    6 D1-D3 1N914 or 1N4148 silicon switching diode
+
+    2 S1 SPST mini toggle switch
+
+    1 circuit board, (1/2 RS 276-159)
+    1 8-pin DIP socket
+    2 1/4" knob for R6
+    2 female BNC connectors, panel mount
+    2 female RCA connectors, in-line type
+    tap-in and power connectors
+    connecting wire, power wire
+* Circuit Simulation
+** SPICE
+** gschem
+http://wiki.geda-project.org/geda:ngspice_and_gschem
+** gnucap
+** Xoscope
+http://xoscope.sourceforge.net/
+** Verilog-AMS
+** http://www.falstad.com/circuit/
+** http://lushprojects.com/circuitjs/
+** https://github.com/sharpie7/circuitjs1
+** https://github.com/Qucs/qucs/
+** ADMS
+https://sourceforge.net/projects/mot-adms/files/adms-source/
+
+ADMS - An automatic device model synthesizer
+
+ADMS is a code generator that converts electrical compact device
+models specified in high-level description language into
+ready-to-compile C code for the API of spice simulators. Based on
+transformations specified in XML language, ADMS transforms Verilog-AMS
+code into other target languages.
+
+* Safety
+http://www.epanorama.net/documents/safety/safety_guidelines.html
+** Publishing
+http://www.epanorama.net/documents/general/schematic_to_web.html
+* resistors
+http://www.epanorama.net/documents/markings/resistor_colorcodes.html
+* EMF Detector
+  http://www.epanorama.net/zen_schematics/Circuits/Misc/emf.html
+* LED lights
+http://www.epanorama.net/zen_schematics/Circuits/Misc/torch.html
+* visual doorbell
+http://www.epanorama.net/zen_schematics/Circuits/Misc/deafdoorbell.html
+* Shop Controller
+http://www.sskteracon.com/SchematicDiagram.htm
+* TODO build laser communicator
+http://www.epanorama.net/circuits/laserlink.html
+http://www.epanorama.net/zen_schematics/Circuits/Misc/lcs.html
+** http://www.epanorama.net/circuits/diskstepper.html
+** artpieces
+*** https://dpadblog.com/2014/06/16/i-turned-my-old-computer-into-a-robot/
+** http://letsmakerobots.com/node/16668
+*** TODO motor driver ICs from cd drives
+** http://www.instructables.com/id/Floppy-Drive-Salvage/
+
+The drive pictured has TWO <-- That's right! Two different motors. One
+is the large brushless spindle driving motor that everyone seems to be
+focusing on because it is BIGGER. We all know that bigger is better
+right? SHUH, right. Anyhow. The smaller second motor is the important
+one being focused on by the original author of this article. If you
+take a close look, you will see that the tiny motor on the BACK of the
+floppy drive that drives the read head has four wires connecting it to
+the circuitry. And on the actual motor upon closer inspection, most of
+the time has SIX connectors which only four are being used. So read
+into the tech here. It can be wired either unipolor for speed or
+Bi-Polar series for higher torque (not that the torque will do any
+real work though. You are most likely talking about 10-20 oz. This is
+an extremely versatile motor being under utilized. It is a low voltage
+( 5V), low current (30mA) and high accuracy (400 Steps per revolution
+or .9 degrees per step) with low torque. You could easily use an open
+source low power L293, ULN2003A, ULN2803 Darlington array or UCN-5804B
+based unipolar driver to make plotters, CNC PCB mills, 3D scanners,
+soldier paste applicators/SMT component placers etc. from these little
+nuggets. A little creative thinking can go a long way to making
+valuable CNC worker bees from these mostly overlooked and undervalued
+precision
+gemstones. [http://www.epanorama.net/circuits/diskstepper.html]
+
+** Circuits
+   http://www.opencircuits.com/Main_Page
+** http://www.computercollector.com/
+** Robot Odyssey
+http://www.slate.com/articles/technology/bitwise/2014/01/robot_odyssey_the_hardest_computer_game_of_all_time.html
+** Apple II
+   http://lukazi.blogspot.com/
+   http://lukazi.blogspot.com.au/2012/01/waltr-introduction.html
+** Robotics Up-Cycling
+   http://www.grandideastudio.com/portfolio/do-it-yourself/
+** Logo robots
+   https://www.youtube.com/user/NGYT40#p/u/32/chr-YYby-zQ
+** Robotics People
+*** Nikos Giannakopoulos
+    :PROPERTIES:
+    :url:      http://learn.parallax.com/educators/teacher/nikos-giannakopoulos
+    :END:
+** Legos
+*** http://lukazi.blogspot.com/search?updated-min=2014-01-01T00:00:00-08:00&updated-max=2015-01-01T00:00:00-08:00&max-results=1
+* circuits
+http://www.discovercircuits.com/
+datasheetlocator.com
+icmaster.com
+* ifixit
+  https://www.ifixit.com/
+* http://www.epanorama.net/circuits/
+** Basic Electronics List
+http://www.epanorama.net/links/components.html
+*** Transistors
+    + 2N2222 - General purpose Si-NPN transistor 60..75V 0.8A 0.5W 250MHz B>100
+    + 2N3055 - general purpose power transistor 100V/15A/115W, old
+      type in TO-3 metal case, still useful in linear power supplies
+    + N3904 - General purpose Si-NPN 60V 0.1A 0.625W 250MHz B>100 TO-92 plastic case, look at
+    + 2N3905 General purpose Si-PNP 40V 0.2A 0.625W 200MHz B>100, TO-92 plastic case, look at
+    + 2N3906 - General purpose Si-PNP transistor
+    + BC327 - General purpose Si-PNP transistor 50V 0.8A 0.625W 100MHz TO-92 plastic case
+    + BC337 - General purpose Si-NPN transistor 50V 0.8A 0.625W 100MHz TO-92 plastic case
+    + BC547 - General purpose Si-NPN transistor 50V 0.1A 0.5W 300MHz TO-92 plastic case
+    + BC557 - General purpose Si-PNP transistor 50V 0.1A 0.5W 150MHz TO-92 plastic case
+    + MJ2955 - Complementary Silicon PNP Power Transistor 15A/60V/115W
+    + TIP31 NPN Epitaxial Silicon Power Transistor
+    + TIP41C Power transistor in TO220 case NPN 6A 100V
+*** FET
+    + 2N3819 - N-channel JFET (soon to be obsolete), small signal, 25V
+      10mA 350 mW 400 MHz TO-92
+    + BF245
+    + BF245A - N-channel symmetrical junction field-effect transistor
+    + 700 MHz, interchangeability of drain and source connections,
+    suitable for LF, HF and DC amplifiers, TO-92 variant package
+    + BS170 N-Channel enhancement mode field effect transistor for low
+      voltage, low current applications (up to 500 mA)
+*** Diodes
+    1N4007 rectifier diode 1A 1000V
+    1N4148 General purpose silicon diode 0.2A 75V, High Conductance Fast Diode
+    Thyristors and triacs
+*** Opamps
+    + RC5532A Low noise dual operational amplifier - This is a very
+      good for many audio designs. The 5532 has THD down around
+      0.0003% at normal levels and frequencies. The self noise is no
+      worse than a 10 k ohm resistor. Read also
+    + LM741 - general purpose operational amplifier, also known as
+    LM324 Low Power Quad Operational Amplifier - check alse
+    LM358
+    LM358 Low Power Dual Operational Amplifier
+
+    LM380 - 2.5W Audio Power Amplifier IC for consumer
+    applications. Amplifier gain is internally fixed at 34 dB. Input
+    stage allows ground referenced input signals and utput
+    automatically self-centers to one-half the supply voltage. The
+    output is short circuit proof with internal thermal limiting.
+
+    LM386 Low Voltage Audio Power Amplifier. The LM386 is a power
+    amplifier designed for use in low voltage consumer
+    applications. The gain is internally set to 20 to keep external
+    part count low. This amplifier IC can drive 8 ohms speaker nicely
+    with maximum power from 250 mW to 1W depending on operating
+    voltage and IC version. Typical operating voltage range is 6-12V.
+
+    NE/SA/SE5532/5532A Internally-compensated dual low noise operational amplifier
+    TL072 Low noise dual operational amplifier
+    TL082
+*** Regulator ICs
+    KA7805 - 3-Terminal 1A Positive Voltage Regulator for 5V output voltage
+
+    LM78xx series positive voltage regulators - up to 1A regulator at
+    constant voltages (7805=+5V, 7808=+8V, 7812=+12V, 7815=+15V,
+    7818=+18V), includes overcurrent and therminal protection, input
+    voltage range from output voltage + 2V to 24V, 7805 voltage
+    regulator IC form this series for 5V output is very useful for
+
+    LM79xx series voltage regulators for negative voltages -
+    practically same specifications as 78xx series but for negative
+    voltages (7905=-5V, 7908=-8V, 7912=-12V, 7915=-15V, 7818=-18V)
+
+    L200 - adjustable voltage and current regulator IC 2.9-36V,
+    adjustable overcurrent protection, PENTAWATT case
+
+    LM 317 three pin variable voltage regulator for 1.2V to 37V and up
+    to 1.5A current
+
+*** Interfacing ICs
+    + MAX220-MAX249 family of line drivers/receivers - intended for
+      all EIA/TIA-232E and V.28/V.24 communications interfaces,
+      particularly applications where ?12V is not available.
+    + ULN2803 - 8-bit 50V 500mA TTL compatible input NPN darlington
+      driver. This driver is suitable for loads like lamps, relays
+      printer hammers or other similar loads for a broad range of
+      computer, industrial, and consumer applications. This device
+      featurs open-collector outputs and free wheeling clamp diodes
+      for transient suppression. The ULN2803 is designed to be
+      compatible with standard TTL families.
+    + ULN2804 - 8-bit 50V 500mA CMOS/PMOS compatible input NPN
+      darlington driver. This driver is suitable for loads like lamps,
+      relays printer hammers or other similar loads for a broad range
+      of computer, industrial, and consumer applications. This device
+      featurs open-collector outputs and free wheeling clamp diodes
+      for transient suppression. The ULN2804 is optimized for 6 to 15
+      volt high level CMOS or PMOS.
+*** Logic ICs
+    74xx/54xx Family TTL Circuits - drawings of some most commonly used types
+    Microcontrollers
+*** Optoisolators
+    4N25 optoisolator, CTR=20% (CTR=current transfer ratio), check
+    4N37 optoisolator, CTR=100%
+    6N138 optoisolater with split Darlington output, Vcc = 18 V max., 8 pin DIP, check
+    6N138 optoisolater with split Darlington output, Vcc = 18 V max., 8 pin DIP
+    CNY17 optoisolator, CTR for CNY17-3 is 100%, check
+    MOC3023 optodiac
+*** Other ICs
+    EPROM and EEPROM datasheets - most common types shown
+    LM3914 Dot/Bar Display Drive - The LM3914 is a monolithic integrated circuit that senses analog voltage levels and drives 10 LEDs, providing a linear analog display. A single pin changes the display from a moving dot to a bar graph. Current drive to the LEDs is regulated and programmable, eliminating the need for resistors.
+    LM555 timer chip datasheet - check also
+    LM393 Dual Comparator
+    LM567 tone decoder
+
+* Floppy Drives
+** http://www.instructables.com/howto/floppy+drive/
+** TODO swap head ribbons
+** http://www.instructables.com/id/quotHackingquot-a-Floppy-Disk-Eject-Motor/
+* Hard Disk Drive
+http://www.instructables.com/id/HDDJ-Turning-an-old-hard-disk-drive-into-a-rotary/
+http://www.instructables.com/id/Tesla-turbine-from-old-hard-drives-and-minimal-too/
+* Power Supply
+http://www.instructables.com/id/Convert-A-Computer-Power-supply-to-a-Bench-Top-Lab/
