@@ -1,9 +1,126 @@
-#+TITLE: Robotics
+#+TITLE: Robotics Inbox
 #+FILETAGS: robotics
 
+* Huge list of curcuits
+  http://www.talkingelectronics.com/projects/200TrCcts/200TrCcts.html
+* Online Parts Search
+https://octopart.com/
+* Institute of Applied Autonomy
+  The Institute for Applied Autonomy (IAA) was founded in 1998 as a
+  technological research and development organization dedicated to the
+  cause of individual and collective self-determination. Our mission
+  is to study the forces and structures which affect
+  self-determination and to provide technologies which extend the
+  autonomy of human activists.
+** Contestational Robotics
+   Contestational Robotics, aka "Robotic Objectors," is a research
+   initiative of the IAA which inverts the traditional relationship
+   between robots and authoritarian power structures by developing robots
+   to meet thee needs and budgets of culturally resistant forces. The IAA
+   currently has three robotic objectors under development.
+*** Little Brother
+    "Studies have shown that people are more likely to accept
+    literature from a robot than a human activist."
+    - IAA Research
+    Pamphleteer, aka "Little Brother," is a propaganda robot which
+    distributes subersive literature. Pamphleteer is designed to bypass
+    the social conditioning that inhibits activists' ability to distribute
+    propaganda by capitalizing on the aesthetics of cuteness. The robot's
+    form references a tradition of robot aesthetics developed in science
+    fiction and popular media.
+*** GraffitiWriter
+ Graffiti Writer is a tele-operated robot which employs a custom built
+ array of spray cans to write linear text messages on the ground at a
+ rate of 10 miles per hour. These messages are similar in form to dot
+ matrix printer output, and are not intended to imitate human
+ graffiti. Rather the Writer's aesthetics are purely mechanical,
+ prompting the viewer to wonder "what kind of machine wrote this?"
+*** StreetWriter
+ The StreetWriter project expands on the research gained from the
+ successful Robotic GraffitiWriter project. The system consists of a
+ custom built, computer controlled industrial spray painting unit that
+ is built into an extended body cargo van. The vehicle prints text
+ messages onto the pavement in a manner much like a dot-matrix
+ printer. The expanded width of StreetWriter allows for messages and
+ simple graphics that are legible from tall buildings and low flying
+ aircraft and is capable of rendering message that are several hundreds
+ of feet in length.
+* Interactive Electronics for Artists & Inventors
+** Inverse Surveillance
+Inverse Surveillance intervenes in the process of surveillance and
+attempts to undermine or reverse the authoritative power associated
+with the technology.
+*** iSee
+iSee is a web-based application charting the locations of
+closed-circuit television (CCTV) surveillance cameras in urban
+environments. With iSee, users can find routes that avoid these
+cameras ("paths of least surveillance") allowing them to walk around
+their cities without fear of being "caught on tape" by unregulated
+security monitors.
+*** TXTmob
+TXTmob is a free service that lets you quickly and easily broadcast
+txt messages to friends, comrades, and total strangers. The format is
+similar to an email b-board system. You can sign up to send and
+receive up-to-the-minute messages from groups of people organized
+around a range of different topics.
+* http://raaf.org/pdfs/Rinaldo_Guide_sm.pdf
+* HyperPhysics
+http://hyperphysics.phy-astr.gsu.edu/hbase/hph.html
 * Carnival
+** Resistors made out of pencil lines
+** Capacitors made out of tin-foil
+** JFET Electrometer
+** Banner of the Electromagnetic Spectrum
+** Lense demonstrations
+** Electromagnet
+** Geophone
+** Transistor Circuits
+   http://www.talkingelectronics.com/projects/200TrCcts/200TrCcts.html
+** http://beetleblocks.com/
+** http://watercolorbot.com/
+** http://www.evilmadscientist.com/2010/the-egg-bot-kit/
+** http://monster6502.com/
+** 741 Op Amp
+http://shop.evilmadscientist.com/tinykitlist/762
+** 555 timer
+http://shop.evilmadscientist.com/tinykitlist/652
+** http://www.mindsontoys.com/tb.htm
+** http://www.evilmadscientist.com/
+** DigiComp II
+http://www.mindsontoys.com/dc1_main.htm
+http://www.evilmadscientist.com/2011/a-video-introduction-to-the-digi-comp-ii/?utm_content=buffer473a7&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer
+** Simulation running on screens
+*** TODO Scales of the Computer down to the atom
+*** http://phet.colorado.edu/
+*** http://www.falstad.com/mathphysics.html
+** Potato Batteries
+** Van de Graaf Generator
+http://sci-toys.com/scitoys/scitoys/electro/electro6.html
+** Railgun
+http://sci-toys.com/scitoys/scitoys/electro/railgun/railgun.html
+** ElectroMagnet
+   http://sci-toys.com/scitoys/scitoys/electro/electro.html
+   http://sci-toys.com/scitoys/scitoys/electro/electro2.html
+   http://sci-toys.com/scitoys/scitoys/electro/electro3.html#two_coil
+** Franklin's Bells
+   http://sci-toys.com/scitoys/scitoys/electro/electro4.html
+** Static Charge Motors
+   http://sci-toys.com/scitoys/scitoys/electro/electro5.html
+** Sterling Engine
+** Sci-Toys
 ** Roulette
 http://www.instructables.com/id/Techno-geek-Roulette-or-Who-Makes-the-Coffee/
+** Lunar Lander
+http://lushprojects.com/lunarlander/
+** CyclePong
+http://lushprojects.com/cyclepong2/
+** Novely Automation
+http://www.novelty-automation.com/
+** How to Make Your Own Slot Machine
+http://www.underthepier.com/01_howtocoinmech.htm
+** The International Arcade Museum
+http://www.arcade-museum.com/
+** Tesla Coil
 * BEAM
 https://en.wikipedia.org/wiki/BEAM_robotics
 ** Motor Driver
@@ -58,7 +175,7 @@ http://wiki.geda-project.org/geda:ngspice_and_gschem
 http://xoscope.sourceforge.net/
 ** Verilog-AMS
 ** http://www.falstad.com/circuit/
-** http://lushprojects.com/circuitjs/
+** http://www.falstad.com/circuit/e-index.html
 ** https://github.com/sharpie7/circuitjs1
 ** https://github.com/Qucs/qucs/
 ** ADMS
@@ -71,6 +188,7 @@ models specified in high-level description language into
 ready-to-compile C code for the API of spice simulators. Based on
 transformations specified in XML language, ADMS transforms Verilog-AMS
 code into other target languages.
+** http://lushprojects.com/circuitjs/
 
 * Safety
 http://www.epanorama.net/documents/safety/safety_guidelines.html
@@ -263,3 +381,12 @@ http://www.instructables.com/id/HDDJ-Turning-an-old-hard-disk-drive-into-a-rotar
 http://www.instructables.com/id/Tesla-turbine-from-old-hard-drives-and-minimal-too/
 * Power Supply
 http://www.instructables.com/id/Convert-A-Computer-Power-supply-to-a-Bench-Top-Lab/
+* Patents
+** https://en.wikipedia.org/wiki/List_of_Nikola_Tesla_patents
+* CurcuitLab
+https://www.circuitlab.com/
+* Autodesk Circuits
+  https://circuits.io/lab
+* partsim
+  http://www.partsim.com/
+* https://kazuhikoarase.github.io/simcirjs/
