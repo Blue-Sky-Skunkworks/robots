@@ -4,3 +4,5 @@
 ** TODO build 12v Sealed Lead Acid (SLA) Battery Charger
    http://www.talkingelectronics.com/projects/BatteryCharger-12vSLA/BatteryCharger-12vSLA.html
 ** TODO print out resistor color codes
+** TODO implement s-expression circuit library
+   https://github.com/openlisp/clasp

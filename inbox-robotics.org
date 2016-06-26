@@ -167,6 +167,11 @@ A robot must continually search for better power sources.
     tap-in and power connectors
     connecting wire, power wire
 * Circuit Simulation
+** clasp
+https://github.com/openlisp/clasp
+** Fritzing
+** webtronix
+https://github.com/logical/webtronix
 ** SPICE
 ** gschem
 http://wiki.geda-project.org/geda:ngspice_and_gschem
