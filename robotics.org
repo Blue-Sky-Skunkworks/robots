@@ -1,8 +1,71 @@
 #+TITLE: Robotics
 
 * Robotics Tasks
-** TODO build 12v Sealed Lead Acid (SLA) Battery Charger
-   http://www.talkingelectronics.com/projects/BatteryCharger-12vSLA/BatteryCharger-12vSLA.html
 ** TODO print out resistor color codes
 ** TODO implement s-expression circuit library
    https://github.com/openlisp/clasp
+   http://www.radioeng.cz/fulltexts/2011/11_04_880_889.pdf
+** TODO Contact Kragen
+* Shop Tools
+** TODO build 12v Sealed Lead Acid (SLA) Battery Charger
+   http://www.talkingelectronics.com/projects/BatteryCharger-12vSLA/BatteryCharger-12vSLA.html
+** TODO build 3d printer
+   https://www.ulule.com/wafate/
+** TODO build Oscilloscope
+   http://www.instructables.com/id/Fully-Functional-Television-Oscilloscope/
+   http://www.instructables.com/id/How-To-Make-A-CRT-TV-Into-an-Oscilloscope/
+   http://www.instructables.com/id/How-to-make-an-ocilliscope-using-a-CRT-computer-mo/
+* Devices
+** GENIACS
+   add in "Electronics Illustrated" May 1958
+   "electrical brain construction set"
+** radio direction finder
+May 1958 "Electronics Illustrated" p. 112 Heathkit
+* Robots
+** Tugbot
+http://www.aethon.com/industrialtug/?gclid=CNCT2dm6zM0CFQKTaQodYQ0Puw
+** Bubble Blowing Robot
+https://www.youtube.com/watch?v=eSeYdGHV4ZM
+* Folded Robots
+http://robotics.eecs.berkeley.edu/~ronf/Movies/AMH-cardboard.mp4
+https://github.com/dhaldane/OpenRoACH
+http://robotics.eecs.berkeley.edu/~ronf/Prototype/index.html
+** Linkages
+https://en.wikipedia.org/wiki/Linkage_(mechanical)
+http://robotics.eecs.berkeley.edu/~ronf/DESKTOP/prototyping/linkages.html#sarrus
+https://en.wikipedia.org/wiki/Sarrus_linkage
+https://en.wikipedia.org/wiki/Chebyshev_linkage
+** OctoRoach
+** JumpRoach
+https://www.youtube.com/watch?v=xa7OCHohbdc&feature=youtu.be
+** http://irrl.vassar.edu/
+* Groups
+** Berkeley
+http://robotics.eecs.berkeley.edu/~ronf/Biomimetics.html
+** Stanford
+http://ai.stanford.edu/
+* People
+** Mattias Wahde
+   http://www.me.chalmers.se/~mwahde/
+** Krister Wolff
+   http://www.am.chalmers.se/~wolff/
+*** Course on Autonomous Agents
+http://www.am.chalmers.se/~wolff/AA/AutonomousAgents.html
+* Core People
+** William Halliburton
+** Conan Armantrout
+** Bob Geordono
+** Peter Dove
+** Robert Schulthies
+** Shelley Mitchell
+** Carlos Bravo
+** John Smith
+** Jordan Lyons
+** Harold Shinsato
+** Will Richardson
+** Bradley Layton
+** Andrew Ammons
+andrew.ammons@umconnect.umt.edu
+** Nathan Hansen
+** Jonathan Nelson
+** Edward Weymouth

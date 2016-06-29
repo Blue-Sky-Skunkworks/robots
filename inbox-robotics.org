@@ -1,6 +1,32 @@
 #+TITLE: Robotics Inbox
 #+FILETAGS: robotics
 
+* Terry Newton
+  http://www.infionline.net/~wtnewton/me.html
+* Robot Room
+http://www.robotroom.com/index.html
+** Solar Recharging
+   http://www.robotroom.com/Solar-Recharging.html
+** Rust Removal
+http://www.robotroom.com/Rust-Removal.html
+* Chiu-Yuan Fang
+http://chiumanfu.solarbotics.net/photovore.html
+* CNC
+** Michael Zalewski
+   lcamtuf@coredump.cx
+*** Guerilla Guide to CNC
+    http://lcamtuf.coredump.cx/gcnc/
+* Kragen
+** LC Meter
+http://www.kerrywong.com/2010/10/16/avr-lc-meter-with-frequency-measurement/
+** JTAG
+http://nsa.unaligned.org/jrev.php The jrev tool tries to automate the
+process of reverse-engineering the board connectivity. It probes all
+pairs of JTAG-scannable pins on the board.
+* online courses
+** Analog
+http://www.analog.com/en/education/courses-and-tutorials/electronics-i-and-ii.html
+https://wiki.analog.com/university/courses/tutorials/index
 * Huge list of curcuits
   http://www.talkingelectronics.com/projects/200TrCcts/200TrCcts.html
 * Online Parts Search
@@ -122,7 +148,9 @@ http://www.underthepier.com/01_howtocoinmech.htm
 http://www.arcade-museum.com/
 ** Tesla Coil
 * BEAM
-https://en.wikipedia.org/wiki/BEAM_robotics
+  http://vsim.freeservers.com/amiller/microcore.html
+  https://en.wikipedia.org/wiki/BEAM_robotics
+  http://www.infionline.net/~wtnewton/otherwld/selfwire.html
 ** Motor Driver
 http://library.solarbotics.net/circuits/driver_tilden.html
 ** Solar engine
@@ -167,8 +195,13 @@ A robot must continually search for better power sources.
     tap-in and power connectors
     connecting wire, power wire
 * Circuit Simulation
-** clasp
-https://github.com/openlisp/clasp
+** Common Lisp
+*** clasp
+ https://github.com/openlisp/clasp
+*** cl-rpc
+http://http.debian.net/debian/pool/main/c/cl-rlc/cl-rlc_0.1.3.orig.tar.gz
+*** wirelisp
+http://www.dtic.mil/dtic/tr/fulltext/u2/a220740.pdf
 ** Fritzing
 ** webtronix
 https://github.com/logical/webtronix
